@@ -22,6 +22,8 @@ body, html{
   height: auto;
   width: 800px;
   padding: 20px;
+  align-items: center;
+  justify-content: center ;
 }
 
 .container .title{
@@ -67,12 +69,16 @@ body, html{
     border: none;
     border-radius: .1em;
     font-size: 1.2em;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #000000;
+    align-self: center;
 }
 
 .container .btn:hover{
     cursor: pointer;
-    background-color: #f0f0f0;
-    color: #202020;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .next{
